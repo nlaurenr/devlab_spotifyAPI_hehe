@@ -2,7 +2,7 @@
 
 1) Put client ID:client Secret in Ruby generator to get the base 64 text
 
-2) Use that base 64 printed output in the following command (after 'Basic')
+2) Use that base 64 printed output in the following command (after 'Basic'):
 curl -X "POST" -H "Authorization: Basic MzQ1MjExMzAwNDlmNDMGU0ZTEzZGVhY2Y1NGVkMDkxYWIwMDFiNGNkMGU4ZGE=" -d grant_type=client_credentials https://accounts.spotify.com/api/token
 
 Output will look like this:
